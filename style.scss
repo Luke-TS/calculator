@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculator {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    height: 900px;
+    width: 600px;
+}
+
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+#screen {
+    background-color: white;
+    flex: 1;
+    font-size: 100px;
+    margin: 20px;
+    text-align: right;
+    padding: 0px 25px;
+    font-family: 'DS-Digital';
+}
+
+.btn-row {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+
+    button {
+        flex: 1;
+        font-size:xx-large;
+    }
+}
